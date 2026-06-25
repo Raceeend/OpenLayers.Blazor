@@ -134,10 +134,6 @@ Works with:
 - ✅ **On-demand layer creation** - Internal shape/drawing and marker layers are added automatically when needed
 - ✅ **Improved event handling** - Fixed issue where `InteractionsEnabled = false` also blocked mouse events
 
-### Breaking Changes
-- Internal shape and drawing layers are now part of the layers collection
-- Some API changes for better consistency
-
 ### Bug Fixes
 - Mouse events now work correctly even when interactions are disabled
 - Improved memory management and disposal
